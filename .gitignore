@@ -1,0 +1,35 @@
+# --- Python Basics ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Ignore large auto-generated profile reports if you use them
+spark-warehouse/
+.ipynb_checkpoints/
+
+# --- Data & Large Files ---
+# If your datasets are huge, uncomment the line below:
+# datasets/
+*.csv
+*.xlsx
+*.sqlite
+**/data/
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+# Ubuntu/Linux specific
+.directory
+.nfs*
+
+# --- VS Code & Tools ---
+.vscode/
+.idea/
+.history/
